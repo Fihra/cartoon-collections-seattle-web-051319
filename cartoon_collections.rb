@@ -27,7 +27,7 @@ def find_the_cheese(foodies)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-return foodies.include?(cheese_types)
+return cheese_types.include?(foodies)
 
 
 
