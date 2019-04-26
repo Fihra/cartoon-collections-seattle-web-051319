@@ -7,8 +7,8 @@ end
 
 def summon_captain_planet(planeteers)# code an argument here
   # Your code here
-  planeteers.collect {|p| "#{p.capitalize}!" 
-    
+  planeteers.collect {|p| "#{p.capitalize}!"
+
   }
 end
 
