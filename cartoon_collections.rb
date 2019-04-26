@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarfName)# code an argument here
   # Your code here
   dwarfName.each_with_index{|name, i|
-    puts "#{i}. #{name}" if i < dwarfName.length
+    puts "#{i}. #{name}" if i + 1 < dwarfName.length
   }
 end
 
