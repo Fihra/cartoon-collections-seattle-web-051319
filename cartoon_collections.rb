@@ -27,7 +27,8 @@ def find_the_cheese(foodies)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  foodies.include?(cheese_types)
+  result = foodies.find {|food| food.include?(cheese_types)}
+  return result
 
 
 end
