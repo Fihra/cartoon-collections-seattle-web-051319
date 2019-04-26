@@ -28,7 +28,7 @@ def find_the_cheese(foodies)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   if cheese_types.include?(foodies)
-    return cheese_types.index(foodies)
+    return cheese_types[foodies]
   else
     return nil
   end
